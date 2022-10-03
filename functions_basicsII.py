@@ -25,9 +25,9 @@ print (print_and_return([3,77]))
 # first value in the list plus the list's length.
 # Example: first_plus_length([1,2,3,4,5]) should return 6 (first value: 1 + length: 5)
 def first_plus_length(list):
-    print(list[0])
-    return len(list)
-print(first_plus_length([55,46,2]))
+    x=(list[0]+len(list))
+    return x
+print(first_plus_length([1,2,3,4,5]))
 
 # 4 Values Greater than Second - 
 # Write a function that accepts a list and creates a new list containing only the values 
